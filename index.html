@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="first">
+                <h1 class="title-of-country" id="title-of-city">القاهرة</h1>
+                <p> <span id="day"></span>  <span id="d1"></span>  <span id="month">نوفمبر</span> </p>
+                <hr>
+            </div>
+            <div class="second">
+                <div class="box">
+                    <div class="pray">
+                        <h1>الفجر</h1>
+                    </div>
+                    <div class="time-of-pray">
+                        <p id="fajr">4:30</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="pray">
+                        <h1>الظهر</h1>
+                    </div>
+                    <div class="time-of-pray">
+                        <p id="zah">4:30</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="pray">
+                        <h1>العصر</h1>
+                    </div>
+                    <div class="time-of-pray">
+                        <p id="asr">4:30</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="pray">
+                        <h1>المغرب</h1>
+                    </div>
+                    <div class="time-of-pray">
+                        <p id="ma">4:30</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="pray">
+                        <h1>العشاء</h1>
+                    </div>
+                    <div class="time-of-pray">
+                        <p id="ash">4:30</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="pray">
+                        <h1>الشروق</h1>
+                    </div>
+                    <div class="time-of-pray">
+                        <p id="Sunrise">4:30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="country">
+                <select id="selected">
+                    <option disabled>المدينه</option>
+                    <option  id="cairo" value="Cairo">القاهره</option>
+                    <option  id="Alx" value="Alexandria">الاسكندرية</option>
+                    <option  id="fay" value="Fayoum">الفيوم</option>
+                </select>
+            </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
